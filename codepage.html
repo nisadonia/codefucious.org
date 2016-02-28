@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>  
+  
+  <a href="/" > 
+    <div id="abouttabrev" style="margin-bottom:-20px; margin-top:0;">
+      Exit this<br>Lesson
+    </div>
+  </a> 
+  
+  <div id="codecont">
+    <div id="notebook">
+      <div id="spirals">
+      </div>
+      <div id="navig" style="position: absolute;">
+CHAPTER ONE
+</div>
+
+<div id="content" style="position: absolute;">
+<a name="ONEA"></a>
+<div class="page">
+
+<p>
+<h2>Welcome</h2>
+In coding, we create our own world with our own rules. We can do what we 
+
+want with our world. We can collect information, we can make pictures, we 
+
+can do math... the possibilities are endless!
+</p>
+<p>
+So let's make our world:
+<br>
+What's your name:<br>
+    <form id="form">
+    <input type="text" name="userName"></input><br /><br />
+Name your world: <br>
+    <input type="text" name="userWorld"></input><br />
+    </form>
+    <br /><br />
+    <a href="#ONEB">Next</a>
+      <br /><br />
+</p>
+</div>
+
+<a name="ONEB"></a>
+<div class ="page">
+<p>In this world, we will be growing some plants.<br>
+What kind of plant do you want to grow:<br>
+<select id="fruit">
+        <option selected disabled>Choose One</option>
+        <option value="apple">Apple Tree</option>
+        <option value="banana">Banana Tree</option>
+        <option value="orange">Orange Tree</option>
+        <option value="pear">Pear Tree</option>
+    </select>
+    <br /><br />
+    <a href="#ONEC">Next</a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONEC"></a>
+<div class ="page">
+<p>What color are the trees in your world?<br>
+    <select id="color">
+        <option selected disabled>Choose One</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="orange">Orange</option>
+        <option value="red">Red</option>
+    </select>
+    <br /><br />
+    <a href="#ONED">Next</a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONED"></a>
+<div class ="page">
+<p>Does your plant require water?<br>
+<select id="water">
+    <option selected disabled>Choose One</option>
+        <option value="true">true</option>
+        <option value="false">false</option>
+    </select>
+    <br /><br />
+    <a href="#ONEE">Next</a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONEE"></a>
+<div class ="page">
+<p>Does your plant grow in a hot or cold place?<br>
+<select id="temp">
+    <option selected disabled>Choose One</option>
+        <option value="hot">Hot</option>
+        <option value="cold">Cold</option>
+    </select>
+    <br /><br />
+    <a href="#ONEF">Next</a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONEF"></a>
+<div class ="page">
+<p>Look what you have already created!<br>
+Let's make some more rules.<br><br>
+How many days does it take for your plant to completely grow up?
+<br>
+<select id="cycle">
+    <option selected disabled>Choose One</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+    </select>
+    <br /><br />
+    <a href="#ONEG">Next</a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONEG"></a>
+<div class ="page">
+<p>An animal shows up! This is what your animal looks like. Give us a size for your animal: <br>
+<select id="size">
+    <option selected disabled>Choose One</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+    </select>
+    <br /><br />
+    <a href="#ONEH">Next</a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONEH"></a>
+<div class ="page">
+<p>What color is your animal? Pick one below<br>
+<select id="dogColor">
+    <option selected disabled>Choose One</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="purple">Purple</option>
+        <option value="white">White</option>
+        <option value="tan">Tan</option>
+        <option value="blue">Blue</option>
+        <option value="black">Black</option>
+    </select>
+    <br /><br />
+    <a href="#ONEJ">Next</a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONEJ"></a>
+<div class ="page">
+<p>How many years does it live?<br />
+    <select id="years"   onchange="display()">
+    <option selected disabled>Choose One</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+    </select>
+    <br /><br />
+    <a href="#ONEL"><input type='submit' value='Onwards!' onchange='display()'></input></a>
+    <br /><br />
+</p>
+</div>
+
+<a name="ONEK"></a>
+<div class ="page">
+<p>So in this world, we have a (color)(name) tree that lives in a (temp) 
+
+world, that (does/does not) need water. The (animal) eats the (fruit) 
+
+from the tree, and will live to be (years) old after having (number) 
+
+babies.<br>
+    <br /><br />
+    <a href="#ONEL">Next</a>
+    <br /><br />
+</p>
+</div>
+
+
+<a name="ONEL"></a>
+<div class ="page">
+    <p id="afterQuest"></p>
+</p>
+</div>
+
+
+
+<script src="story1java.js." type="text/javascript"></script>
+    </div>
+  </div>
+  
+  <div id="bar">
+    <div class="quote">
+      Education breeds confidence.<br>
+      Confidence breeds hope.<br>
+      Hope breeds peace.<br>
+      <i>- Confucious</i>
+    </div>
+
+    <div id="bottom">  
+      <img src="http://marianna.sternefeld.com/codefucious/images/codefusious.png">
+    </div>
+    &#169; 2016 CopyrightPending
+  </div>
+
+</body>
+</html>

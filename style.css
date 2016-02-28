@@ -2,7 +2,8 @@ body {
   font-family: "Calibri", sans-serif;
   background-color:#ABD3B4;
   margin:0;
-  background-image:url('http://s8.postimg.org/shlot81rl/confectionary.png?noCache=1456612812')
+  background-image:url('http://s16.postimg.org/drlghdqtx/light_wool.png');
+  background-attachment:fixed;
 }
 
 a {
@@ -15,8 +16,8 @@ a {
   position:relative;
   left:50%;
   padding-top:30px;
-  padding-bottom:30px;
   margin-left:-550px;
+  padding-bottom:10px;
 }
 
 #header img {
@@ -29,7 +30,7 @@ a {
   border-top:20px solid #ef7b45;
   border-bottom:20px solid #ef7b45;
   background-color:rgba(205,237,246,.2);
-  margin-top:30px;
+
 }
 
 /* Lesson Select */
@@ -84,7 +85,7 @@ a {
   height:60px;
   width:160px;
   background-color:#f4f4f4;
-  background-image:url('http://s8.postimg.org/shlot81rl/confectionary.png?noCache=1456612812');
+  background-image:url('http://s16.postimg.org/drlghdqtx/light_wool.png');
   position:relative;
   left:50%;
   margin-left:-100px;
@@ -126,8 +127,8 @@ a #abouttab:hover {
 #boxes {
   width:1160px;
   height:430px;
-  padding-top:50px;
-  padding-bottom:20px;
+  padding-top:60px;
+  padding-bottom:30px;
   position:relative;
   left:50%;
   margin-left:-520px;
@@ -150,7 +151,7 @@ a #abouttab:hover {
 /* Us Tab */
 
 #personscont {
-  padding-top:30px;
+  padding-top:50px;
   width:100%;
   border-top:20px solid #ef7b45;
   border-bottom:20px solid #ef7b45;
@@ -160,7 +161,7 @@ a #abouttab:hover {
 
 #persons {
   width:1040px;
-  height:870px;
+  height:890px;
   position:relative;
   margin-left:-520px;
   left:50%;
@@ -217,17 +218,55 @@ a #abouttab:hover {
   border-bottom:20px solid #ef7b45;
   background-color:rgba(205,237,246,.2);
   margin-top:30px;
+  height:600px;
 }
 
 #sponsers {
-  margin-top:30px;
-  margin-bottom:30px;
+  margin-top:60px;
+  margin-bottom:70px;
   width:980px;
+  height:440px;
   padding:20px;
   background-color:#fff;
   position:relative;
   left:50%;
   margin-left:-510px;
+}
+
+#sponsers img {
+  width:200px;
+}
+
+#water {
+  float:left;
+  width:200px;
+  margin:30px;
+  margin-left:50px;
+}
+
+#kiva {
+  float:left;
+  width:200px;
+  margin:30px;
+}
+
+#dream {
+  float:left;
+  width:200px;
+  margin:30px;
+}
+
+#emerge {
+  float:left;
+  width:200px;
+  margin:30px;
+  margin-left:190px;
+}
+
+#gwc {
+  float:left;
+  width:200px;
+  margin:30px;
 }
 
 /* Bottom Bar */
@@ -250,6 +289,13 @@ a #abouttab:hover {
   left:50%;
   margin-left:-100px;
   margin-bottom:30px;
+  overflow:hidden;
+}
+
+#bottom img {
+  height:200px;
+  width:200px;
+  margin-bottom:-15px;
 }
 
 /* Ads */
@@ -270,4 +316,92 @@ a #abouttab:hover {
   float:left;
   margin-left:10px;
   margin-right:10px;
+}
+
+.quote {
+  margin-bottom:30px;
+  color:#AB1F1F;
+  font-weight:bold;
+}
+
+/* Code Page */
+
+#codecont {
+  width:100%;
+  padding-top:120px;
+
+  border-top:20px solid #ef7b45;
+  border-bottom:20px solid #ef7b45;
+  background-color:rgba(205,237,246,.2);
+
+}
+
+#abouttabrev {
+  height:60px;
+  width:160px;
+  background-color:#f4f4f4;
+  background-image:url('http://s16.postimg.org/drlghdqtx/light_wool.png');
+  position:absolute;
+  left:50%;
+  margin-left:-100px;
+  margin-bottom:-100px;
+  border-bottom-left-radius:100px;
+  border-bottom-right-radius:100px;
+  border-left:20px solid #ef7b45;
+  border-right:20px solid #ef7b45;
+  border-bottom:20px solid #ef7b45;
+  padding-bottom:20px;
+  text-align:center;
+  font-size:24px;
+  font-weight:bold;
+}
+
+a #abouttabrev {
+  color:#d84727;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  -ms-transition: all .3s;    
+  transition: all .3s;
+}
+
+a #abouttabrev:hover {
+  letter-spacing:1px;
+}
+
+/* Notebook */
+#notebook {
+  width:700px;
+    height:350px;
+  padding:50px;
+  padding-left:130px;
+  position:relative;
+  left:50%;
+  margin-left:-450px;
+  background-color:#fff;
+}
+
+#spirals {
+  position:absolute;
+  border-right:1px solid #eee;
+  margin-left:-170px;
+  padding-right:10px;
+  margin-top:-50px;
+  width:100px;
+  height:100%;
+  background-image:url('http://s17.postimg.org/6wh9b1kjz/Spiral.png');
+  background-size: 100px 50px;  
+}
+
+
+#content {
+    position:relative;
+	text-align: left;
+	width: 340px;
+	height: 405px;
+	overflow: hidden;
+}
+.page {
+	overflow: auto;
+	height: 405px;
 }
