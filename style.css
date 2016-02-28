@@ -1,0 +1,273 @@
+body {
+  font-family: "Calibri", sans-serif;
+  background-color:#ABD3B4;
+  margin:0;
+  background-image:url('http://s8.postimg.org/shlot81rl/confectionary.png?noCache=1456612812')
+}
+
+a {
+  text-decoration:none;
+}
+
+/* Headerbar */
+#header {
+  width:1100px;
+  position:relative;
+  left:50%;
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-left:-550px;
+}
+
+#header img {
+  width:100%;
+}
+
+#lessoncont {
+  width:100%;
+  height:670px;
+  border-top:20px solid #ef7b45;
+  border-bottom:20px solid #ef7b45;
+  background-color:rgba(205,237,246,.2);
+  margin-top:30px;
+}
+
+/* Lesson Select */
+
+#choicescont {
+  width:1040px;
+  height:500px;
+  margin-top:50px;
+  text-align:center;
+  position:relative;
+  left:50%;
+  margin-left:-520px;
+}
+
+.choice {
+  width:420px;
+  height:420px;
+  float:left;
+  margin:10px;
+  background-color:#ffffff;
+  padding:40px;
+  text-align:left;
+  color:#60919B;
+}
+
+.desc {
+  padding:10px;
+  color:#60919B;
+  font-weight:500;
+  font-size:19px;
+  line-height:20px;
+}
+
+.title {
+  font-size:32px;
+  color:#5eb1bf;
+  font-weight:bold;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  -ms-transition: all .3s;    
+  transition: all .3s;
+}
+
+.title a:hover {
+  margin-left:20px;
+}
+
+/* About Tab */
+
+#abouttab {
+  height:60px;
+  width:160px;
+  background-color:#f4f4f4;
+  background-image:url('http://s8.postimg.org/shlot81rl/confectionary.png?noCache=1456612812');
+  position:relative;
+  left:50%;
+  margin-left:-100px;
+  margin-top:-100px;
+  border-top-left-radius:100px;
+  border-top-right-radius:100px;
+  border-left:20px solid #ef7b45;
+  border-right:20px solid #ef7b45;
+  border-top:20px solid #ef7b45;
+  padding-top:20px;
+  text-align:center;
+  font-size:24px;
+  font-weight:bold;
+}
+
+a #abouttab {
+  color:#d84727;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  -ms-transition: all .3s;    
+  transition: all .3s;
+}
+
+a #abouttab:hover {
+  letter-spacing:1px;
+}
+
+/* About */
+
+#aboutcont {
+  width:100%;
+  border-top:20px solid #ef7b45;
+  border-bottom:20px solid #ef7b45;
+  background-color:rgba(205,237,246,.2);
+  margin-top:30px;
+}
+
+#boxes {
+  width:1160px;
+  height:430px;
+  padding-top:50px;
+  padding-bottom:20px;
+  position:relative;
+  left:50%;
+  margin-left:-520px;
+}
+
+#aboutbox {
+  width:420px;
+  height:320px;
+  padding:40px;
+  background-color:#ffffff;
+  margin-left:10px;
+  margin-right:10px;
+  /* cont 
+  position:relative;
+  left:50%;
+  margin-left:-520px;*/
+  float:left;
+}
+
+/* Us Tab */
+
+#personscont {
+  padding-top:30px;
+  width:100%;
+  border-top:20px solid #ef7b45;
+  border-bottom:20px solid #ef7b45;
+  background-color:rgba(205,237,246,.2);
+  margin-top:30px;
+}
+
+#persons {
+  width:1040px;
+  height:870px;
+  position:relative;
+  margin-left:-520px;
+  left:50%;
+}
+
+#personsbox {
+  float:left;
+  height:360px;
+  width:285px;
+  padding:20px;
+  background-color:#fff;
+  margin:10px;
+  text-align:center;
+}
+
+#personsbox .desca {
+  padding:10px;
+  color:#60919B;
+  font-weight:500;
+  font-size:14px;
+  line-height:20px;
+}
+
+/* Person box formatting */
+
+#icon {
+  height:150px;
+  width:150px;
+  border-radius:75px;
+  overflow:hidden;
+  background-color:grey;
+  position:relative;
+  left:50%;
+  margin-left:-75px;
+  margin-bottom:10px;
+}
+
+#icon img {
+  height:150px;
+  width:150px;
+}
+
+#personsbox b {
+  font-size:20px;
+  color:#d84727;
+  font-weight:bold;
+}
+
+/* Sponsors Tab */
+
+#sponserscont {
+  width:100%;
+  border-top:20px solid #ef7b45;
+  border-bottom:20px solid #ef7b45;
+  background-color:rgba(205,237,246,.2);
+  margin-top:30px;
+}
+
+#sponsers {
+  margin-top:30px;
+  margin-bottom:30px;
+  width:980px;
+  padding:20px;
+  background-color:#fff;
+  position:relative;
+  left:50%;
+  margin-left:-510px;
+}
+
+/* Bottom Bar */
+
+#bar {
+  width:100%;
+  background-color:#d84727;
+  padding-top:60px;
+  padding-bottom:60px;
+  text-align:center;
+  color:#042a2b;
+}
+
+#bottom {
+  background-color:#fff;
+  height:200px;
+  width:200px;
+  border-radius:100px;
+  position:relative;
+  left:50%;
+  margin-left:-100px;
+  margin-bottom:30px;
+}
+
+/* Ads */
+#adbar {
+  width:1040px;
+  height:120px;
+  padding-top:30px;
+
+  position:relative;
+  left:50%;
+  margin-left:-520px;
+}
+
+#ad {
+  width:500px;
+  height:120px;
+  background-color:grey;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
